@@ -1,0 +1,2 @@
+# favmanage
+Favoris app
