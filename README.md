@@ -1,112 +1,76 @@
-<!-- README.md – GenZ Edition 100 % prêt à copier/coller -->
-# 🎯 FavManager Pro – GenZ Edition  
-### Clone → VS Code → Run → Build EXE → Share. Zero stress.
+# README.txt – FavManager Pro GenZ Edition
+# ======================================
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=FavManager%20Pro&fontSize=60&fontAlignY=35&desc=GenZ%20Edition&descAlignY=55"/>
-</p>
-
-<div align="center">
-
-[![Windows](https://img.shields.io/badge/🚀-Télécharger_Windows-00ff88?style=for-the-badge&logo=windows)](https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager_Ultra_GenZ.exe)
-[![macOS](https://img.shields.io/badge/🍏-Télécharger_macOS-00ff88?style=for-the-badge&logo=apple)](https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager-Pro-macOS.zip)
-[![Linux](https://img.shields.io/badge/🐧-Télécharger_Linux-00ff88?style=for-the-badge&logo=linux)](https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager-Pro-Linux.AppImage)
-
-</div>
-
----
-
-## 📥 1. Télécharger le projet
-```bash
-# Option ZIP rapide
+# 1. Télécharge le projet
+Option A – ZIP rapide :
 curl -L https://github.com/Scripteur95/favmanage/archive/refs/heads/main.zip -o favmanager.zip
 unzip favmanager.zip && cd favmanager-main
 
-# Option Git clone
+Option B – Git clone :
 git clone https://github.com/Scripteur95/favmanage.git
 cd favmanage
 
+# 2. Installer Visual Studio Code
+#    → https://code.visualstudio.com
+#    → installe l’extension « Python » (Microsoft)
 
----
-
-```markdown
-<!-- release.md – 100 % prêt à coller -->
-# 📦 Release v1.0.0 – GenZ Edition  
-*24/07/2025 – VS Code powered*
-
-## 🚀 Assets
-| Plateforme | Fichier | Lien |
-|---|---|---|
-| **Windows** | `FavManager_Ultra_GenZ.exe` | [⬇️ Télécharger](https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager_Ultra_GenZ.exe) |
-| **macOS** | `FavManager-Pro-macOS.zip` | [⬇️ Télécharger](https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager-Pro-macOS.zip) |
-| **Linux** | `FavManager-Pro-Linux.AppImage` | [⬇️ Télécharger](https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager-Pro-Linux.AppImage) |
-
-## ⚡ Build ton EXE
-```bash
-pip install pyinstaller
-python -m PyInstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanager.py
-
-## 🛠️ Étapes d’installation & utilisation
-
-### 2. Installer Visual Studio Code
-- Télécharge VS Code : [code.visualstudio.com](https://code.visualstudio.com)  
-- Installe l’extension **Python** (Microsoft) depuis l’onglet Extensions.
-
-### 3. Ouvrir le projet dans VS Code
-```bash
+# 3. Ouvrir le projet dans VS Code
 code .                 # ouvre VS Code avec le dossier courant
+# Si code n’est pas reconnu : File > Open Folder
 
-## 🛠️ Suite des étapes
+# 4. Sélectionner l’interpréteur Python
+Ctrl + Shift + P → Python: Select Interpreter → choisis Python 3.8+
 
-### Si `code` n’est pas reconnu  
-Ouvre **VS Code** → `File > Open Folder`.
+# 5. Lancer l’app en mode dev
+F5  ou  clic droit sur favmanager.py → Run Python File in Terminal
 
----
-
-### 4. Sélectionner l’interpréteur Python  
-- `Ctrl + Shift + P` → **Python: Select Interpreter**  
-- Choisis l’interpréteur Python **3.8+** installé sur ta machine.
-
----
-
-### 5. Lancer l’app en mode **dev**  
-- `F5` ou clic droit sur `favmanager.py` → **Run Python File in Terminal**.
-
----
-
-### 6. Compiler ton propre EXE (facultatif mais cool)  
-Dans le terminal VS Code :
-```bash
+# 6. Compiler ton propre EXE
 pip install pyinstaller
 python -m PyInstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanager.py
+# L’EXE sort ici : dist/FavManager_Ultra_GenZ.exe
 
-## 📂 L’EXE sort ici
-```text
-dist/
-└── FavManager_Ultra_GenZ.exe   ← 11 Mo de pur bonheur
-## ✅ Ce que tu obtiens
+# ✅ Ce que tu obtiens
+# • EXE 11 Mo ultra-portable : clé USB ou Discord
+# • Interface GenZ : 3 thèmes (Neon, Dark, Pastel)
+# • Gestion multi-type : WEB, GAMES, APPS, DOSSIERS
+# • Import / Export : Bookmarks Chrome ou Firefox en 1 clic
 
-| Feature | Description |
-|---|---|
-| **EXE 11 Mo ultra-portable** | Copie sur clé USB ou envoie par Discord |
-| **Interface GenZ** | 3 thèmes : Neon, Dark, Pastel |
-| **Gestion multi-type** | WEB, GAMES, APPS, DOSSIERS |
-| **Import / Export** | Bookmarks Chrome ou Firefox en 1 clic |
+# 🛠️ Fixes rapides
+# • tkinter manquant : Windows → winget install python-tk
+#                        macOS → brew install python-tk
+#                        Linux → sudo apt install python3-tk
+# • EXE trop gros : ajoute --exclude-module matplotlib à la commande PyInstaller
 
-## 🛠️ Fixes rapides
+# 📤 Partage & Enjoy
+# Glisse-dépose dist/FavManager_Ultra_GenZ.exe sur le bureau ou envoie-le par Discord.
+# Double-clic → interface GenZ → aucune installation requise.
 
-| Bug | Fix |
-|---|---|
-| `tkinter` manquant | Windows : `winget install python-tk` / macOS : `brew install python-tk` / Linux : `sudo apt install python3-tk` |
-| EXE trop gros | Ajoute `--exclude-module matplotlib` à la commande PyInstaller |
+# 📣 Shout-out
+# Build ton EXE → star le repo → partage à tes potes → deviens une légende.
+# ⭐ Enjoy la v1.0.0 buildée par toi-même !
 
-## 📤 Partage & Enjoy
 
-Glisse-dépose `dist/FavManager_Ultra_GenZ.exe` sur le bureau ou envoie-le par Discord.  
-Double-clic → interface **GenZ** → **aucune installation requise**.
+# ─────────────────────────────────────────
+# release.txt – Fichier Release v1.0.0
+# ─────────────────────────────────────────
+# 📦 Release v1.0.0 – GenZ Edition – 24/07/2025
+# VS Code & PyInstaller powered
 
-## 📣 Shout-out
+# 🚀 Assets
+# Windows EXE   : https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager_Ultra_GenZ.exe
+# macOS ZIP     : https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager-Pro-macOS.zip
+# Linux AppImage: https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager-Pro-Linux.AppImage
 
-Build ton EXE → **star** le repo → partage à tes potes → deviens une légende.  
-⭐ **Enjoy la v1.0.0 buildée par toi-même !**
+# ⚡ Build ton EXE
+# pip install pyinstaller
+# python -m PyInstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanager.py
+# → dist/FavManager_Ultra_GenZ.exe
 
+# ✅ Features
+# • Interface GenZ : 3 thèmes (Neon, Dark, Pastel)
+# • Multi-type : WEB, GAMES, APPS, DOSSIERS
+# • Import/Export : Bookmarks Chrome / Firefox
+
+# 📣 Shout-out
+# Build → star → share → become a legend.
+# ⭐ Enjoy the v1.0.0 you built yourself!
