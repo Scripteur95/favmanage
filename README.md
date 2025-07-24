@@ -100,3 +100,24 @@ Une fois la commande terminée, vous trouverez l'exécutable dans le répertoire
 ---
 
 ## 🤝 Contribution
+
+
+Les contributions sont ce qui fait de la communauté open source un endroit incroyable pour apprendre, inspirer et créer. Toute contribution que vous faites est **grandement appréciée**. 
+
+1. Fork le projet
+2. Créez votre branche de fonctionnalités (`git checkout -b feature/AmazingFeature`)
+3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Push vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
+
+---
+
+## 🆘 Support
+
+Si vous rencontrez des problèmes ou avez des questions, n'hésitez pas à ouvrir une issue sur le dépôt GitHub. Nous sommes là pour vous aider ! 🤝
+
+---
+
+## 📜 Licence
+
+Distribué sous la licence MIT. Voir `LICENCE` pour plus d'informations.
