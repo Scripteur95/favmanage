@@ -1,63 +1,73 @@
-# 🎯 FavManager Pro – GenZ Edition  
-### *L’app qui gère tes favoris plus vite que t’as scrollé TikTok.*
-
+<!-- markdownlint-disable MD033 -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=NO+INSTALL+NEEDED;JUST+CLICK+%26+RUN;GENZ+APPROVED" alt="Typing SVG"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=FavManager%20Pro&fontSize=60&fontAlignY=35&desc=GenZ%20Edition&descAlignY=55"/>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/latest/download/FavManager_Ultra_GenZ.exe">
-    <img src="https://img.shields.io/badge/🚀-Télécharger_Windows-00ff88?style=for-the-badge&logo=windows"/>
-  </a>
-  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/latest/download/FavManager-Pro-macOS.zip">
-    <img src="https://img.shields.io/badge/🍏-Télécharger_macOS-00ff88?style=for-the-badge&logo=apple"/>
-  </a>
-  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/latest/download/FavManager-Pro-Linux.AppImage">
-    <img src="https://img.shields.io/badge/🐧-Télécharger_Linux-00ff88?style=for-the-badge&logo=linux"/>
-  </a>
-</p>
+<div align="center">
 
----
-
-## 🪄 Usage en 3 clics
-1. **Click** sur le bouton vert ci-dessus.  
-2. **Double-clic** sur le fichier → l’interface s’ouvre.  
-3. **Add** tes liens, jeux, apps → **Run** directement depuis l’app.
-
----
-
-## ✨ Vibes visuelles
-| Mode | Aperçu |
+| <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" width="24"/> VS Code | <img src="https://cdn.simpleicons.org/pyinstaller/2D0359" width="24"/> PyInstaller |
 |---|---|
-| **Neon** | ![Neon](https://raw.githubusercontent.com/Scripteur95/FavManager-Pro/main/assets/screen_neon.png) |
-| **Dark** | ![Dark](https://raw.githubusercontent.com/Scripteur95/FavManager-Pro/main/assets/screen_main.png) |
+| **Code & Chill** | **Build & Share** |
+
+</div>
 
 ---
 
-## 🎮 Fonctionnalités qui *slap*
-| Emoji | Feature | Comment ça déchire |
+## 🚀 Objectif
+Créer **ton propre EXE** depuis **VS Code** en **5 minutes** → tu pourras filer le `.exe` à tes potes *sans qu’ils installent Python*.
+
+---
+
+## ⚡ Étapes ultra-stylées
+
+| # | Action | Screenshot |
 |---|---|---|
-| ⚡ | **Zero install** | Télécharge → run. Pas besoin de Python. |
-| 🔗 | **Multi-support** | WEB, GAMES, APPS, DOSSIERS. |
-| 🔍 | **Search instant** | Tape 3 lettres → trouvé. |
-| 🎨 | **Thèmes GenZ** | Neon, Dark, Pastel. |
-| 🔃 | **Import/Export** | Bookmarks Chrome / Firefox en 1 clic. |
-| 💾 | **Portable** | Mets l’EXE sur une clé USB, ça tourne. |
+| 1 | **Télécharge le code** | [⬇️ Télécharger ZIP](https://github.com/Scripteur95/FavManager-Pro/archive/refs/heads/main.zip) ou `git clone https://github.com/Scripteur95/FavManager-Pro.git` |
+| 2 | **Ouvre dans VS Code** | `Ctrl + K  Ctrl + O` → sélectionne le dossier |
+| 3 | **Installe l’extension Python** | Extensions → installe « Python » (Microsoft) |
+| 4 | **Ouvre le terminal** | `` Ctrl + ` `` ou `Terminal > New Terminal` |
+| 5 | **Installe PyInstaller** | ```bash<br>pip install pyinstaller``` |
+| 6 | **Build l’EXE** | Colle cette commande :<br>```bash<br>python -m PyInstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanager.py``` |
+| 7 | **Récupère l’EXE** | Le fichier se trouve dans `dist/FavManager_Ultra_GenZ.exe` |
+| 8 | **Partage** | Envoie `FavManager_Ultra_GenZ.exe` à tes potes → ils double-cliquent et c’est parti |
 
 ---
 
-## 🛠️ Troubleshooting – le mode *panique*
-| Problème | Fix en 10 s |
+## 🎮 Ce que tu obtiens
+- **Interface GenZ** (Neon, Dark, Pastel)  
+- **Portable** : l’exe fait **≈ 11 Mo**  
+- **Zero install** pour tes amis
+
+---
+
+## 🛠️ Problèmes ? Fix rapide
+| Erreur | Solution |
 |---|---|
-| **Rien ne se passe** | Installe [VC++ Redist x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) |
-| **Windows Defender** | Propriétés → « Débloquer » |
-| **macOS « app non vérifiée »** | Ctrl+clic → Ouvrir → « Ouvrir quand même » |
+| `pyinstaller` introuvable | `pip install pyinstaller --upgrade` |
+| `tkinter` manquant | Windows : `winget install python-tk` / macOS : `brew install python-tk` / Linux : `sudo apt install python3-tk` |
+| EXE trop gros | Ajoute `--exclude-module matplotlib` ou autres modules non utilisés |
 
 ---
 
-## 📝 Pour les devs *curieux*
-```bash
-git clone https://github.com/Scripteur95/FavManager-Pro
-cd FavManager-Pro
-pip install -r requirements.txt
-python favmanager.py
+## 📸 Aperçu build
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Scripteur95/FavManager-Pro/main/assets/vscode_build.gif" width="600"/>
+</p>
+
+---
+
+## 📦 Bonus – `.vscode/launch.json` (debug rapide)
+Crée le fichier `.vscode/launch.json` :
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: favmanager",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/favmanager.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
