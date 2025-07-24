@@ -100,8 +100,6 @@ Une fois la commande terminée, vous trouverez l'exécutable dans le répertoire
 ---
 
 ## 🤝 Contribution
-
-
 Les contributions sont ce qui fait de la communauté open source un endroit incroyable pour apprendre, inspirer et créer. Toute contribution que vous faites est **grandement appréciée**. 
 
 1. Fork le projet
