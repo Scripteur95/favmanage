@@ -20,7 +20,7 @@
 ## 🛠 Installation
 
 ### Prérequis
-
+- Le lien pour télécharger https://www.python.org/downloads/
 - Python 3.8 ou supérieur
 - Visual Studio Code (pour le développement)
 
