@@ -20,7 +20,7 @@ Bienvenue sur **FavManage** ! Une application géniale pour gérer vos favoris d
 
 Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur votre système :
 
-- [Python 3.11](https://www.python.org/downloads/) 🐍
+- [Python 3.13](https://www.python.org/downloads/) 🐍
 - pip (généralement inclus avec Python)
 
 ---
