@@ -71,3 +71,41 @@ Crée le fichier `.vscode/launch.json` :
     }
   ]
 }
+## 📂 Récupère ton EXE
+
+```text
+dist/
+└── FavManager_Ultra_GenZ.exe   ← 11 Mo de pur bonheur
+## 📤 Partage & Enjoy
+
+Glisse-dépose **ton EXE** sur le bureau de tes potes ou envoie-le par Discord.  
+Un double-clic → l’interface **GenZ** s’ouvre, **aucune installation requise**.
+
+---
+
+## ✅ Ce que tu obtiens
+
+| Feature | Description |
+|---|---|
+| **EXE 11 Mo ultra-portable** | Tient sur une clé USB ou s’envoie par Discord |
+| **Interface GenZ** | 3 thèmes : Neon, Dark, Pastel |
+| **Gestion multi-type** | WEB, GAMES, APPS, DOSSIERS |
+| **Import / Export** | Bookmarks Chrome ou Firefox en un clic |
+
+---
+
+## 🛠️ Fixes rapides
+
+| Bug | Fix |
+|---|---|
+| `tkinter` manquant | Installe `python-tk` pour ton OS |
+| EXE trop gros | Ajoute `--exclude-module matplotlib` à la commande |
+
+---
+
+## 📣 Shout-out
+
+Build ton EXE → **star** le repo → partage à tes potes → deviens une légende.
+
+⭐ **Enjoy la v1.0.0 buildée par toi-même !**
+
