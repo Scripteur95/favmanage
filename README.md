@@ -72,8 +72,9 @@ Crée le fichier `.vscode/launch.json` :
   ]
 }
 
-## 📂 Récupère ton EXE
 
+
+📂 Récupère ton EXE
 ```
 dist/
 └── FavManager_Ultra_GenZ.exe   ← 11 Mo de pur bonheur
