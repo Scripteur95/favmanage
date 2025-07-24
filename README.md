@@ -29,7 +29,7 @@
 1. **Cloner le dépôt** :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/favmanage.git
+   git clone https://github.com/scripteur95/favmanage.git
    cd favmanage
    ```
 
