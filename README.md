@@ -89,6 +89,12 @@ pyinstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanage.py
 3. **Trouver l'exécutable** :
 L'exécutable sera généré dans le dossier dist.
 
+4. ***commande pour les addon python***:
+
+```
+pip install customtkinter Pillow requests
+``` 
+   
 🤝 Contribution
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
 
