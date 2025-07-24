@@ -1,104 +1,102 @@
-# 🎯 FavManager Pro
+# 🌟 FavManage 🌟
 
-![FavManager Pro Banner](https://via.placeholder.com/800x200/1e1e2e/cdd6f4?text=FavManager+Pro)
-
-**FavManager Pro** est une application de gestion de favoris conçue pour les utilisateurs de la génération Z. Elle permet d'ajouter, de gérer et d'ouvrir facilement vos favoris, qu'il s'agisse de sites web, de jeux, de dossiers ou d'applications.
+Bienvenue sur **FavManage** ! Une application géniale pour gérer vos favoris de manière efficace et intuitive.
 
 ---
 
-## ✨ Fonctionnalités
+## 📋 Table des matières
 
-| Fonctionnalité | Description |
-|---------------|-------------|
-| **Ajout de favoris** | Ajoutez des favoris de différents types (sites web, jeux, dossiers, applications). |
-| **Recherche et filtrage** | Recherchez et filtrez vos favoris pour un accès rapide. |
-| **Interface utilisateur moderne** | Une interface intuitive et stylée pour une expérience utilisateur optimale. |
-| **Gestion facile** | Ouvrez, éditez ou supprimez vos favoris directement depuis l'application. |
+- [📌 Prérequis](#-prérequis)
+- [🛠 Installation](#-installation)
+- [🚀 Utilisation](#-utilisation)
+- [📦 Création d'un exécutable](#-création-dun-exécutable)
+- [🤝 Contribution](#-contribution)
+- [🆘 Support](#-support)
+- [📜 Licence](#-licence)
+
+---
+
+## 📌 Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur votre système :
+
+- [Python 3.11](https://www.python.org/downloads/) 🐍
+- pip (généralement inclus avec Python)
 
 ---
 
 ## 🛠 Installation
 
-### Prérequis
-- Le lien pour télécharger https://www.python.org/downloads/
-- Python 3.8 ou supérieur
-- Visual Studio Code (pour le développement)
+### 1. Cloner le dépôt
 
-### Étapes d'installation
+Ouvrez votre terminal et exécutez les commandes suivantes :
 
-1. **Télécharger le projet** :
-   - Téléchargez le fichier ZIP du projet depuis la [page des releases](https://github.com/Scripteur95/favmanage/releases).
-   - Extrayez le fichier ZIP dans un répertoire de votre choix.
+```bash
+git clone https://github.com/Scripteur95/favmanage.git
+cd favmanage
+```
 
-2. **Installer Visual Studio Code** :
-   - Téléchargez et installez [Visual Studio Code](https://code.visualstudio.com/).
+### 2. Installer les dépendances
 
-3. **Installer l'extension Python** :
-   - Ouvrez Visual Studio Code.
-   - Allez dans les extensions (`Ctrl+Shift+X`) et installez l'extension `Python` de Microsoft.
+Assurez-vous que vous avez ajouté Python à votre PATH pendant l'installation. Ensuite, installez les dépendances nécessaires en utilisant pip :
 
-4. **Ouvrir le projet dans VS Code** :
-   - Ouvrez le dossier du projet dans VS Code (`File > Open Folder`).
+```bash
+pip install -r requirements.txt
+```
 
-5. **Installer les dépendances** :
-   - Ouvrez un terminal dans VS Code (`Ctrl+Shift+P` puis tapez `Terminal`).
-   - Exécutez la commande suivante pour installer les dépendances nécessaires :
+Si vous rencontrez des problèmes avec `pip`, utilisez le chemin complet vers l'exécutable Python :
 
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-6. **Lancer l'application** :
-   - Dans le terminal, exécutez la commande suivante :
-
-     ```bash
-     python favmanage.py
-     ```
+```bash
+C:\Users\Utilisateur\AppData\Local\Programs\Python\Python313\python.exe -m pip install -r requirements.txt
+```
 
 ---
 
 ## 🚀 Utilisation
 
-1. **Ajouter un favori** :
-   - Remplissez les champs `NOM DU FAVORI` et `URL / CHEMIN`.
-   - Sélectionnez le type de favori.
-   - Cliquez sur `AJOUTER LE FAVORI`.
+Pour lancer l'application, utilisez la commande suivante :
 
-2. **Rechercher un favori** :
-   - Utilisez la barre de recherche pour filtrer les favoris.
+```bash
+python favmanager.py
+```
 
-3. **Ouvrir un favori** :
-   - Sélectionnez un favori dans la liste et cliquez sur `OUVRIR`.
+### Fonctionnalités
+
+- Ajouter des favoris
+- Supprimer des favoris
+- Organiser les favoris par catégories
+- Rechercher des favoris
 
 ---
 
 ## 📦 Création d'un exécutable
 
-Pour créer un exécutable de l'application, vous pouvez utiliser `PyInstaller` :
+Pour créer un exécutable de l'application, vous pouvez utiliser PyInstaller :
 
-1. **Installer PyInstaller** :
-
-   ```bash
-   pip install pyinstaller
-2 **Créer l'exécutable** :
+### 1. Installer PyInstaller
 
 ```bash
-pyinstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanage.py
+pip install pyinstaller
 ```
 
-3. **Trouver l'exécutable** :
-L'exécutable sera généré dans le dossier dist.
+### 2. Créer l'exécutable
 
-4. ***commande pour les addon python***:
+Utilisez PyInstaller pour créer un exécutable. Assurez-vous que le répertoire des scripts Python est dans votre PATH, ou utilisez le chemin complet :
 
+```bash
+pyinstaller --onefile favmanager.py
 ```
-pip install customtkinter Pillow requests
-``` 
-   
-🤝 Contribution
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
 
-Vous pouvez copier ce texte et l'intégrer dans votre fichier README.md. Cela aidera à structurer et à mettre en forme les informations de manière claire et lisible.
+Si `pyinstaller` n'est pas reconnu, utilisez le chemin complet :
 
+```bash
+C:\Users\Utilisateur\AppData\Local\Programs\Python\Python313\Scripts\pyinstaller.exe --onefile favmanager.py
+```
 
-© 2025 FavManager Pro. Tous droits réservés.
+### 3. Trouver l'exécutable
+
+Une fois la commande terminée, vous trouverez l'exécutable dans le répertoire `dist`. Vous pouvez copier ce fichier sur votre bureau pour un accès facile.
+
+---
+
+## 🤝 Contribution
