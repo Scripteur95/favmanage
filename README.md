@@ -26,28 +26,21 @@
 
 ### Étapes d'installation
 
-1. **Cloner le dépôt** :
-
-   ```bash
-   git clone https://github.com/scripteur95/favmanage.git
-   cd favmanage
-   ```
+1. **Télécharger le projet** :
+   - Téléchargez le fichier ZIP du projet depuis la [page des releases](https://github.com/Scripteur95/favmanage/releases).
+   - Extrayez le fichier ZIP dans un répertoire de votre choix.
 
 2. **Installer Visual Studio Code** :
-
    - Téléchargez et installez [Visual Studio Code](https://code.visualstudio.com/).
 
 3. **Installer l'extension Python** :
-
    - Ouvrez Visual Studio Code.
    - Allez dans les extensions (`Ctrl+Shift+X`) et installez l'extension `Python` de Microsoft.
 
 4. **Ouvrir le projet dans VS Code** :
-
    - Ouvrez le dossier du projet dans VS Code (`File > Open Folder`).
 
 5. **Installer les dépendances** :
-
    - Ouvrez un terminal dans VS Code (`Ctrl+Shift+P` puis tapez `Terminal`).
    - Exécutez la commande suivante pour installer les dépendances nécessaires :
 
@@ -56,7 +49,6 @@
      ```
 
 6. **Lancer l'application** :
-
    - Dans le terminal, exécutez la commande suivante :
 
      ```bash
@@ -68,17 +60,14 @@
 ## 🚀 Utilisation
 
 1. **Ajouter un favori** :
-
    - Remplissez les champs `NOM DU FAVORI` et `URL / CHEMIN`.
    - Sélectionnez le type de favori.
    - Cliquez sur `AJOUTER LE FAVORI`.
 
 2. **Rechercher un favori** :
-
    - Utilisez la barre de recherche pour filtrer les favoris.
 
 3. **Ouvrir un favori** :
-
    - Sélectionnez un favori dans la liste et cliquez sur `OUVRIR`.
 
 ---
@@ -91,30 +80,19 @@ Pour créer un exécutable de l'application, vous pouvez utiliser `PyInstaller` 
 
    ```bash
    pip install pyinstaller
-   ```
+2 **Créer l'exécutable** :
 
-2. **Créer l'exécutable** :
-
-   ```bash
-   pyinstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanage.py
-   ```
+```bash
+pyinstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanage.py
+```
 
 3. **Trouver l'exécutable** :
+L'exécutable sera généré dans le dossier dist.
 
-   - L'exécutable sera généré dans le dossier `dist`.
-
----
-
-## 🤝 Contribution
-
+🤝 Contribution
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
 
----
+Vous pouvez copier ce texte et l'intégrer dans votre fichier README.md. Cela aidera à structurer et à mettre en forme les informations de manière claire et lisible.
 
-## 📄 Licence
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
-
-© 2023 FavManager Pro. Tous droits réservés.
+© 2025 FavManager Pro. Tous droits réservés.
