@@ -6,13 +6,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/download/v1.0.0/FavManager_Ultra_GenZ.exe">
+  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/latest/download/FavManager_Ultra_GenZ.exe">
     <img src="https://img.shields.io/badge/🚀-Télécharger_Windows-00ff88?style=for-the-badge&logo=windows"/>
   </a>
-  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/download/v1.0.0/FavManager-Pro-macOS.zip">
+  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/latest/download/FavManager-Pro-macOS.zip">
     <img src="https://img.shields.io/badge/🍏-Télécharger_macOS-00ff88?style=for-the-badge&logo=apple"/>
   </a>
-  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/download/v1.0.0/FavManager-Pro-Linux.AppImage">
+  <a href="https://github.com/Scripteur95/FavManager-Pro/releases/latest/download/FavManager-Pro-Linux.AppImage">
     <img src="https://img.shields.io/badge/🐧-Télécharger_Linux-00ff88?style=for-the-badge&logo=linux"/>
   </a>
 </p>
@@ -21,7 +21,7 @@
 
 ## 🪄 Usage en 3 clics
 1. **Click** sur le bouton vert ci-dessus.  
-2. **Double-clic** sur l’EXE → l’interface s’ouvre.  
+2. **Double-clic** sur le fichier → l’interface s’ouvre.  
 3. **Add** tes liens, jeux, apps → **Run** directement depuis l’app.
 
 ---
@@ -42,16 +42,16 @@
 | 🔍 | **Search instant** | Tape 3 lettres → trouvé. |
 | 🎨 | **Thèmes GenZ** | Neon, Dark, Pastel. |
 | 🔃 | **Import/Export** | Bookmarks Chrome / Firefox en 1 clic. |
-| 💾 | **Portable** | Mets l’EXE sur une clé USB → emmène partout. |
+| 💾 | **Portable** | Mets l’EXE sur une clé USB, ça tourne. |
 
 ---
 
 ## 🛠️ Troubleshooting – le mode *panique*
-| Problème | Fix en 10s |
+| Problème | Fix en 10 s |
 |---|---|
-| **Rien ne se passe** | Installe [VC++ Redist](https://aka.ms/vs/17/release/vc_redist.x64.exe) |
-| **Windows Defender** | Propriétés → Débloquer → OK |
-| **DLL manquant** | Même lien VC++ ci-dessus. |
+| **Rien ne se passe** | Installe [VC++ Redist x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) |
+| **Windows Defender** | Propriétés → « Débloquer » |
+| **macOS « app non vérifiée »** | Ctrl+clic → Ouvrir → « Ouvrir quand même » |
 
 ---
 
