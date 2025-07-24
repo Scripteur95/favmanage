@@ -1,90 +1,120 @@
-╔══════════════════════════════════════════════════════════════╗
-║                FAVMANAGER PRO – GENZ EDITION                ║
-║               README & RELEASE – 100 % STYLÉ                ║
-╚══════════════════════════════════════════════════════════════╝
+# 🎯 FavManager Pro
 
-📥 1) Récupérer le projet
-────────────────────────
-ZIP rapide :  
-curl -L https://github.com/Scripteur95/favmanage/archive/refs/heads/main.zip -o favmanager.zip  
-unzip favmanager.zip && cd favmanager-main  
+![FavManager Pro Banner](https://via.placeholder.com/800x200/1e1e2e/cdd6f4?text=FavManager+Pro)
 
-Git clone :  
-git clone https://github.com/Scripteur95/favmanage.git  
-cd favmanage  
+**FavManager Pro** est une application de gestion de favoris conçue pour les utilisateurs de la génération Z. Elle permet d'ajouter, de gérer et d'ouvrir facilement vos favoris, qu'il s'agisse de sites web, de jeux, de dossiers ou d'applications.
 
-🛠️ 2) Installer Visual Studio Code
-──────────────────────────────────
-1. Télécharge VS Code → https://code.visualstudio.com  
-2. Installe l’extension « Python » (Microsoft)
+---
 
-🧑‍💻 3) Ouvrir dans VS Code
-────────────────────────
-code .  
-# Si “code” n’est pas reconnu : File > Open Folder
+## ✨ Fonctionnalités
 
-⚙️ 4) Sélectionner l’interpréteur
-────────────────────────
-Ctrl + Shift + P → Python: Select Interpreter → choisis Python 3.8+
+| Fonctionnalité | Description |
+|---------------|-------------|
+| **Ajout de favoris** | Ajoutez des favoris de différents types (sites web, jeux, dossiers, applications). |
+| **Recherche et filtrage** | Recherchez et filtrez vos favoris pour un accès rapide. |
+| **Interface utilisateur moderne** | Une interface intuitive et stylée pour une expérience utilisateur optimale. |
+| **Gestion facile** | Ouvrez, éditez ou supprimez vos favoris directement depuis l'application. |
 
-🚀 5) Lancer l’app en dev
-────────────────────────
-F5  ou  clic droit sur favmanager.py → Run Python File in Terminal
+---
 
-🔨 6) Build ton EXE
-────────────────────────
-pip install pyinstaller  
-python -m PyInstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanager.py  
-# 🎯 L’EXE sort ici : dist/FavManager_Ultra_GenZ.exe
+## 🛠 Installation
 
-✅ Ce que tu obtiens
-────────────────────────
-• EXE 11 Mo ultra-portable → clé USB / Discord  
-• Interface GenZ → 3 thèmes : Neon, Dark, Pastel  
-• Gestion multi-type → WEB, GAMES, APPS, DOSSIERS  
-• Import / Export → Bookmarks Chrome / Firefox en 1 clic
+### Prérequis
 
-🛠️ Fixes rapides
-────────────────────────
-Bug                | Fix
--------------------|--------------------------------------------------------
-tkinter manquant   | Windows → winget install python-tk  
-                   | macOS → brew install python-tk  
-                   | Linux → sudo apt install python3-tk
-EXE trop gros      | Ajoute `--exclude-module matplotlib` à la commande
+- Python 3.8 ou supérieur
+- Visual Studio Code (pour le développement)
 
-📤 Partage & Enjoy
-────────────────────────
-Glisse-dépose dist/FavManager_Ultra_GenZ.exe sur le bureau ou envoie-le par Discord.  
-Double-clic → interface GenZ → aucune installation requise.
+### Étapes d'installation
 
-📣 Shout-out
-────────────────────────
-Build ton EXE ➜ star le repo ➜ partage à tes potes ➜ deviens une légende.  
-⭐ Enjoy la v1.0.0 buildée par toi-même !
+1. **Cloner le dépôt** :
 
+   ```bash
+   git clone https://github.com/votre-utilisateur/favmanage.git
+   cd favmanage
+   ```
 
+2. **Installer Visual Studio Code** :
 
-══════════════════════════════════════════════════════════════
-                         RELEASE v1.0.0
-══════════════════════════════════════════════════════════════
-📅 24/07/2025 – VS Code & PyInstaller powered
+   - Téléchargez et installez [Visual Studio Code](https://code.visualstudio.com/).
 
-🚀 Assets (téléchargement direct)
-Windows EXE   : https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager_Ultra_GenZ.exe
-macOS ZIP     : https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager-Pro-macOS.zip
-Linux AppImage: https://github.com/Scripteur95/favmanage/releases/latest/download/FavManager-Pro-Linux.AppImage
+3. **Installer l'extension Python** :
 
-⚡ Build ton EXE
-pip install pyinstaller
-python -m PyInstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanager.py
-→ dist/FavManager_Ultra_GenZ.exe
+   - Ouvrez Visual Studio Code.
+   - Allez dans les extensions (`Ctrl+Shift+X`) et installez l'extension `Python` de Microsoft.
 
-✅ Features
-• Interface GenZ : 3 thèmes (Neon, Dark, Pastel)
-• Multi-type : WEB, GAMES, APPS, DOSSIERS
-• Import/Export : Bookmarks Chrome / Firefox
+4. **Ouvrir le projet dans VS Code** :
 
-📣 Shout-out
-Build → star → share → become a legend.
-⭐ Enjoy the v1.0.0 you built yourself!
+   - Ouvrez le dossier du projet dans VS Code (`File > Open Folder`).
+
+5. **Installer les dépendances** :
+
+   - Ouvrez un terminal dans VS Code (`Ctrl+Shift+P` puis tapez `Terminal`).
+   - Exécutez la commande suivante pour installer les dépendances nécessaires :
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+6. **Lancer l'application** :
+
+   - Dans le terminal, exécutez la commande suivante :
+
+     ```bash
+     python favmanage.py
+     ```
+
+---
+
+## 🚀 Utilisation
+
+1. **Ajouter un favori** :
+
+   - Remplissez les champs `NOM DU FAVORI` et `URL / CHEMIN`.
+   - Sélectionnez le type de favori.
+   - Cliquez sur `AJOUTER LE FAVORI`.
+
+2. **Rechercher un favori** :
+
+   - Utilisez la barre de recherche pour filtrer les favoris.
+
+3. **Ouvrir un favori** :
+
+   - Sélectionnez un favori dans la liste et cliquez sur `OUVRIR`.
+
+---
+
+## 📦 Création d'un exécutable
+
+Pour créer un exécutable de l'application, vous pouvez utiliser `PyInstaller` :
+
+1. **Installer PyInstaller** :
+
+   ```bash
+   pip install pyinstaller
+   ```
+
+2. **Créer l'exécutable** :
+
+   ```bash
+   pyinstaller --onefile --windowed --name="FavManager_Ultra_GenZ" favmanage.py
+   ```
+
+3. **Trouver l'exécutable** :
+
+   - L'exécutable sera généré dans le dossier `dist`.
+
+---
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+
+---
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+---
+
+© 2023 FavManager Pro. Tous droits réservés.
